@@ -1,0 +1,39 @@
+coca cola
+Drink
+8
+fried chicken
+Main Dish
+46
+ice cream
+Dessert
+12
+greek salad 
+Appetizer
+42
+noodles
+Main Dish
+37
+soup
+Appetizer
+25
+sushi 
+Main Dish
+54
+coffee
+Drink
+13
+Pizza
+Main Dish
+50
+limonana
+Drink
+20
+nums
+Main Dish
+62
+burger
+Main Dish
+80
+cookies
+Dessert
+5
