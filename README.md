@@ -1,14 +1,34 @@
-# Restaurant-menu-java
-A program that is used for restaurant orders. The program reads the menu from a file and will allow the customer to choose what they want and place an order.
+# Restaurant Menu Ordering System (Java)
 
-#### The menu is structured as a text file where each item in it will consist of 3 lines-
-The first line represents the description of the item (free text),the second line is the type of item (first order/ main/ last course/ drink) and the last line is the price of the item.
+This Java-based program facilitates the ordering process for restaurant customers. It extracts the menu from a text file and offers an intuitive interface for customers to make their selections and place orders.
 
-## Using the program:
-- When the customer finishes choosing the desired items, he will click on the "Order" button and receive a dialog box listing the order details (including price).
-- The user will be able to choose between the following possibilities: confirming the order, updating the order or its cancellation.
-- In case of an update request, the system will allow the user to change the order and then the user will be able to press the "time" button again.
-- In the case of approval, the system will ask the user to enter his name accompanied by an ID number (eg: Yossi123456789) and save the order items in a text file whose name is the same as the entered name (it can be assumed that the name is unique). After that, the system will return to the main screen and allow you to make another order.
-- In case of cancellation, the system will return to the main screen and allow another order to be made.
+## Menu Structure:
 
-#### An example menu file is attached.
+The menu is contained in a text file, with each menu item spanning three lines:
+
+1. **Description:** A brief text description of the menu item.
+2. **Type:** The category to which the item belongs (e.g., appetizer, main course, dessert, drink).
+3. **Price:** The cost of the menu item.
+
+## Features & Functionalities:
+
+### 1. Order Placement:
+
+- After selecting desired items, clicking the "Order" button will display a dialog box summarizing the chosen items along with the total price.
+- Post review, users have options to either confirm, update, or cancel their order.
+
+### 2. Order Update:
+
+- If users opt to amend their selections, they can do so and then re-click the "Order" button to view the updated summary.
+
+### 3. Order Confirmation:
+
+- Upon confirming the order, users will be prompted to provide their name coupled with an ID number (e.g., `Yossi123456789`).
+- The system will then save the order details in a text file named after the user's entered name (assuming name uniqueness).
+- Subsequently, it reverts to the main screen, ready to accept another order.
+
+### 4. Order Cancellation:
+
+- If an order is cancelled, the system promptly returns to the main screen, allowing for a new order to be initiated.
+
+_Note: An example menu file is provided with the repository for reference._
