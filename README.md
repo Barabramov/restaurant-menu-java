@@ -32,3 +32,13 @@ The menu is contained in a text file, with each menu item spanning three lines:
 - If an order is cancelled, the system promptly returns to the main screen, allowing for a new order to be initiated.
 
 _Note: An example menu file is provided with the repository for reference._
+
+## Visual Example:
+Below are visual demonstrations of the menu:
+- On the left, you can see a menu after selecting several items and their quantity.
+- On the right, you can see the system response after clicking the order button.
+
+![ChooseInMenu1](https://github.com/Barabramov/restaurant-menu-java/assets/93996218/59cfa874-02da-466a-86e1-9a5de25c5477)
+ &nbsp;&nbsp;&nbsp;![Order](https://github.com/Barabramov/restaurant-menu-java/assets/93996218/ecb37875-afbe-4517-a3a1-e42a35a9c259)
+
+
